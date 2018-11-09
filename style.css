@@ -1,0 +1,29 @@
+nav a {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+@media(min-width: 768px) {
+    .hide {
+        display: block;
+    }
+    nav a {
+        display: inline-block;
+    }
+    .burger {
+        display: none;
+    }
+}
+
+@media(min-width: 1200px) {
+    nav {
+        text-align: right;
+    }
+}
